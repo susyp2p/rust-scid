@@ -1,0 +1,22 @@
+[package]
+name = "scid"
+version = "0.3.0"
+description = "SCID in rust"
+homepage = "https://github.com/susyp2p/rust-scid"
+authors = ["Superstring Community <admin@superstring.ch>"]
+
+keywords = ["ipld", "ipfs", "scid", "multihash", "susyp2p"]
+
+license = "MIT"
+
+readme = "README.md"
+
+[dependencies]
+multihash = "~0.8.0"
+multibase = "~0.6.0"
+integer-encoding = "~1.0.3"
+
+[package.metadata.release]
+upload-doc = true
+pre-release-commit-message = "Release {{version}} 🎉🎉"
+no-dev-version = true
